@@ -24,6 +24,7 @@ class DialogProps {
   final Clip clipBehavior;
   final AnimationController? animation;
   final AlignmentGeometry? alignment;
+  final Color? surfaceTintColor;
 
   const DialogProps({
     this.alignment,
@@ -52,5 +53,6 @@ class DialogProps {
     this.contentPadding = EdgeInsets.zero,
     this.anchorPoint,
     this.transitionBuilder,
+    this.surfaceTintColor,
   });
 }
